@@ -1,0 +1,29 @@
+cat > .gitignore << EOF
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore all data
+data/
+
+# Keep .gitkeep files to maintain directory structure
+!data/
+!data/raw/
+!data/processed/
+!data/processed/annotations/
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/processed/annotations/.gitkeep
+EOF
