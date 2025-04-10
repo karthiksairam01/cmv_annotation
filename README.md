@@ -15,6 +15,9 @@ annotation-project/
 │   └── annotate.py           # The main annotation script
 └── README.md                 # This documentation
 ```
+## Downloading the data
+
+Link: https://o365coloradoedu-my.sharepoint.com/:u:/g/personal/kasa6776_colorado_edu/ERk-W6rM8UVLndCp6UePizIBMmgdbq_j2EcUG7C6v53j3w?e=eB665a
 
 ## Getting Started
 
