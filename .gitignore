@@ -1,4 +1,3 @@
-cat > .gitignore << EOF
 # Python bytecode
 __pycache__/
 *.py[cod]
@@ -14,16 +13,14 @@ env/
 *.swp
 *.swo
 
-# Ignore all data
-data/
-
-# Keep .gitkeep files to maintain directory structure
-!data/
-!data/raw/
-!data/processed/
-!data/processed/annotations/
+# Ignore the 'data' directory and its contents, except for .gitkeep
+data/*
 !data/.gitkeep
+
+# Specifically include .gitkeep within subdirectories
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 !data/processed/annotations/.gitkeep
-EOF
+
+# Exclude large jsonl files.
+data/raw/*.jsonl
