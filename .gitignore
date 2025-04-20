@@ -22,5 +22,8 @@ data/*
 !data/processed/.gitkeep
 !data/processed/annotations/.gitkeep
 
-# Exclude large jsonl files.
+# Exclude dataset file
 data/raw/*.jsonl
+
+# Ignore annotations
+data/processed/annotations/*
