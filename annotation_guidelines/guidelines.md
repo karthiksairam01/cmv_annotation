@@ -70,9 +70,13 @@ These guidelines provide instructions for annotating relations between utterance
 ### 4.4 Irrelevant Utterances
 
 * Utterances that are irrelevant to the parent comment's topic should be annotated as **Neutral**.
-    * Example:
+    * Example 1:
         * Parent Comment: "I am a lawyer... This is one of the most lucid explorations I've seen..."
         * Text: "If you're a lawyer, barring the likely tens of thousands of dollars of law school debt, you can probably afford to buy him reddit gold."
+        * Relation: Neutral
+    * Example 2:
+        * Parent Comment:"This is your position since you seem to have forgotten: >Cause has to do with agency, choice, and effort"
+        * Text: Well, you win this round amigo
         * Relation: Neutral
 
 ### 4.5 Unclear Cases
